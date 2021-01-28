@@ -1,1 +1,17 @@
 First file
+### The flow :
+
+- Create a local repository
+    - `.git` folder is created under the repo and that's where all the changes are tracked
+    - Optionally : GitHub Desktop will create .gitAttiribute file  (you may ignore it for now)
+- Add `file1.txt`
+- Observe the change in GitHub Desktop app in `change` Tab ( `staging area` )
+- Make a commit with proper commit message
+- Observe it in the history
+- repeat it couple times and observe the history
+- Now we are ready to publish the local git repo into [GitHub.com](http://github.com)
+- GitHub Desktop app make it easy by providing the `publish repository` (This is one time process)
+- Observe the remote GitHub repository is created and all your files are there.
+- Go back to your atom , make more changes and `commit` with proper commit message
+- In GitHub Desktop , click `push origin` button, origin is the name that [Github.com](http://github.com) reserve for remote repo , for example :
+    - if your local repo is `Day1` your remote repo when you push will be `origin/Day1`
